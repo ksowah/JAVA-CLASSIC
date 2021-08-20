@@ -102,7 +102,7 @@ import java.util.Scanner;
             viewRes.readResponse();
         }else{
        
-                System.out.println("Invalid input!")
+                System.out.println("Invalid input!");
         
         }
             

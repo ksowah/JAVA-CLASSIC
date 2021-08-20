@@ -48,6 +48,7 @@ import java.util.Scanner;
 
     }
 
+       // customer reads file to see ticket number
    public class viewResponse extends Main{
 
         public void readResponse(){
@@ -85,6 +86,7 @@ import java.util.Scanner;
         Scanner takeRequest = new Scanner(System.in);
         requestType = takeRequest.nextInt();
 
+            // Methods are called using conditional if statement
         if (requestType == 0){
 
             System.out.println("Hello cherished customer, we are glad to have you here today\nPlease fill the form below: \n");
@@ -99,6 +101,7 @@ import java.util.Scanner;
             viewRes.template();
             viewRes.readResponse();
         }
+            
 
 
 

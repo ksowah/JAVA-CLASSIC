@@ -100,6 +100,10 @@ import java.util.Scanner;
             Main.viewResponse viewRes = parent.new viewResponse();
             viewRes.template();
             viewRes.readResponse();
+        }else{
+       
+                System.out.println("Invalid input!")
+        
         }
             
 

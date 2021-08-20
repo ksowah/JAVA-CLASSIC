@@ -4,12 +4,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-
+// Main class
         class Main {
 
                 public String name;
                 public int nationalID;
-
+                
+                
+      // The template method is used by all the classes
     public void template(){
 
          System.out.println("Please enter name: ");
@@ -23,7 +25,9 @@ import java.util.Scanner;
      }
 
     public class response extends Main {
-
+            
+            
+            // Ticket number is written to the file
             public void takeResponse(){
 
                 int ticketNumber =  (int)(Math.random() * 100);

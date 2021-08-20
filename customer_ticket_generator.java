@@ -33,7 +33,7 @@ import java.util.Scanner;
                 int ticketNumber =  (int)(Math.random() * 100);
 
                 try{
-                    FileWriter myResponse = new FileWriter(/*TYPE FILE PATH HERE(in quotes)*/name + nationalID + ".txt");
+                    FileWriter myResponse = new FileWriter(/*TYPE FILE PATH HERE(in quotes)*/ + name + nationalID + ".txt");
                     myResponse.write("Your ticket number is " + "'" +ticketNumber +"'"+ ". A teller will attend to you shortly.");
                     myResponse.close();
                     System.out.println("Your request has successfully been received");

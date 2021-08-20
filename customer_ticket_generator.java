@@ -36,7 +36,7 @@ import java.util.Scanner;
 
                 }catch(IOException e){
 
-                    System.out.println("name or ID may be invalid.\nTicket may have not been requested");
+                    System.out.println("An unknown error occured");
                     e.printStackTrace();
                 }
 
@@ -57,7 +57,7 @@ import java.util.Scanner;
                 }
                 readTicket.close();
             }catch(FileNotFoundException e){
-                System.out.println("An unknown error occurred");
+                System.out.println("name or ID may be invalid.\nTicket may have not been requested");
                 e.printStackTrace();
             }
 

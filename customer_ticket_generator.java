@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-// Main class
+// the Main class
         class Main {
 
                 public String name;
